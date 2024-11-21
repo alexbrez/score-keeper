@@ -31,6 +31,21 @@ function updateScores(player, opponent){
                 player.button.disabled = true;
                 opponent.button.disabled = true;
 
+                const winnerMessage = document.querySelector('#winnerMessage');
+                if (player === p1) {
+                    winnerMessage.textContent = "Player 1 Wins!";
+                    winnerMessage.classList.add('has-text-primary');
+                } else {
+                    winnerMessage.textContent = "Player 2 Wins!";
+                    winnerMessage.classList.add('has-text-info');
+                }
+
+                confetti({
+                    particleCount: 200, 
+                    spread: 100,        
+                    origin: { y: 0.6 } 
+                });
+
             }
             player.display.textContent = player.score;
         }
@@ -60,5 +75,9 @@ function reset(){
         p.display.classList.remove('has-text-success', 'has-text-danger');
         p.button.disabled = false;
     }
+    
+    const winnerMessage = document.querySelector('#winnerMessage');
+    winnerMessage.textContent = '';
+    winnerMessage.classList.remove('has-text-primary', 'has-text-info');
  
 }
