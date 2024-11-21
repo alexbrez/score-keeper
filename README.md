@@ -1,5 +1,5 @@
 🏆 
-Score Keeperis a simple and interactive scorekeeping web application designed for two players. This project uses HTML, CSS (with Bulma), and JavaScript to allow users to keep track of scores dynamically, set custom winning points, and celebrate victories with confetti! 🎉
+Score Keeper is a simple and interactive scorekeeping web application designed for two players. This project uses HTML, CSS (with Bulma), and JavaScript to allow users to keep track of scores dynamically, set custom winning points, and celebrate victories with confetti! 🎉
 
 🎯 Features
  - Dynamic Score Updates: Keep track of scores for two players in real time.
