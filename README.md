@@ -18,10 +18,10 @@ Choose the winning score from the dropdown menu.
 Celebrate victories with confetti and a winning message!
 Click the Reset button to start a new game.
 
-📦 Built With
-HTML5: Markup for the webpage structure.
-CSS3 (Bulma): For styling and responsiveness.
-JavaScript (ES6): Core functionality for dynamic score updates, winning conditions, and confetti effects.
-Canvas-Confetti: For the confetti animation.
+📦 Built With:
+ - HTML5: Markup for the webpage structure.
+ - CSS3 (Bulma): For styling and responsiveness.
+ - JavaScript (ES6): Core functionality for dynamic score updates, winning conditions, and confetti effects.
+ - Canvas-Confetti: For the confetti animation.
 
 Enjoy keeping score and celebrating victories! 🥳
